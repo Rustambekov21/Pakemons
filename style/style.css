@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+button {
+    cursor: pointer;
+}
+
+ul, li, ol {
+    list-style: none;
+    color: inherit;
+}
+
+.wrapper {
+    background: blue;
+}
+
+.container {
+    width: 100%;
+    max-width: 1040px;
+    margin: 0 auto;
+    padding: 0 24px;
+}
+
+.list{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.like {
+    padding: 5px;
+    background: white;
+    border: 1px solid black;
+}
+
+.count{
+    font-size: 45px;
+}
